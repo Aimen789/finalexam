@@ -1,0 +1,70 @@
+/* Основные стили для страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .hero {
+    background: url('https://via.placeholder.com/1920x600.png?text=Mountains+of+Kyrgyzstan') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+  }
+  
+  .main-content {
+    background-color: #eef6ee;
+  }
+  
+  .main-content h2 {
+    font-size: 2rem;
+    color: #2c5b2d;
+  }
+  
+  .about-us {
+    background-color: #f8f9fa;
+  }
+  
+  .about-us h2 {
+    font-size: 2.25rem;
+    color: #2c5b2d;
+  }
+  
+  .about-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  footer {
+    background-color: #2c5b2d;
+    color: #f5f5f5;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+  
